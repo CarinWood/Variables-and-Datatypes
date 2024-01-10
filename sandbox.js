@@ -41,4 +41,22 @@ if(isOrderPayed) {
 /* Ett bra användningsområde för booleans är när man vill kolla om något är sant för att då utföra
 en viss sak. Är det falskt kanske en annan sak ska utföras */
 
+/* Exercise 6 */
 
+/* Om man från början vet att värdet aldrig kommer att ändras ska man använda const. När man använder const
+kan värdet inte ändras eller skrivas över av misstag */
+
+/* Exercise 7 */
+
+let number1 = 23
+let number2 = 42
+let res = number1 + number2
+console.log(res)
+
+/* Exercise 8 */
+
+let result1 = number1 - number2
+let result2 =  number1 * number2
+let result3 = number1 / number2
+
+console.log(result1, result2, result3)
