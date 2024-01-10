@@ -60,3 +60,22 @@ let result2 =  number1 * number2
 let result3 = number1 / number2
 
 console.log(result1, result2, result3)
+
+/* Exercise 9 */
+
+let a = 53  
+console.log(a)
+a += 5
+console.log(a)
+
+/* Exercise 10 */
+
+/* Det som händer på de två första raderna är irrelevant då a assignas till värdet 7 på tredje raden.
+Sedan adderas 2 till det befintliga värdet 7. Console loggen kommer då att visa 9. */
+
+// let a = 10; a assignas till 10
+// a = a - 4; a subtraheras med 4. Värdet är nu 6
+// a = 7; a assignas till 7. Värdet är nu 7
+// a = a + 2; 7 ökas med 2. Värdet är nu 9
+
+// console.log(a); Detta kommer att loggas som 9
