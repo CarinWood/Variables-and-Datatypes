@@ -23,3 +23,10 @@ console.log("age: " + animalAge)
 console.log("chipped: " + chipped)
 
 /* Exercise 4 */
+const name = 'Pluto'
+console.log(name)
+name = "Mickey";
+// console.log(name) --> typfel. Det går inte att assigna någonting nytt till en konstant.
+//Antingen får man göra om den till let eller deklarera om den där den initieras.
+
+/* Exercise 5 */
