@@ -25,8 +25,20 @@ console.log("chipped: " + chipped)
 /* Exercise 4 */
 const name = 'Pluto'
 console.log(name)
-name = "Mickey";
+// name = "Mickey";
 // console.log(name) --> typfel. Det går inte att assigna någonting nytt till en konstant.
 //Antingen får man göra om den till let eller deklarera om den där den initieras.
 
 /* Exercise 5 */
+
+let isOrderPayed = true;
+if(isOrderPayed) {
+    console.log("Ship the custormer's order")
+} else {
+    console.log("Wait for payment")
+}
+
+/* Ett bra användningsområde för booleans är när man vill kolla om något är sant för att då utföra
+en viss sak. Är det falskt kanske en annan sak ska utföras */
+
+
